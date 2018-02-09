@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_blue_light"
+            android:drawableTop="@drawable/pic1"
+            android:gravity="center"
+            android:text="Did you know" />
+
+        <TextView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/red"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/pic2"
+            android:text="that Android OS" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/pic3"
+            android:text="was originally used for" />
+
+        <TextView
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/pic4"
+            android:text="CAMERAS?" />
+
+    </LinearLayout>
+</LinearLayout>
